@@ -55,7 +55,6 @@ queueList =['5', 'print queue', 'queue', 'Q', 'q', 'Print queue', 'Print Queue']
 infoList = ['6', 'I', 'i', 'Info', 'info', 'information']
 helpList = ['7','help','Help', 'H', 'h']
 exitList = ['8','Exit','Quit','quit','exit', 'E', 'e']
-easterList = ['diablo']
 
 #----------------------------------------------------------------------------------
 #           FORMATING
@@ -208,12 +207,6 @@ def scrub():
             valid = True
         else:
             eHandler(scrubQ)
-#I was listening to this song when I wrote this script, RIP.
-def eggs():
-    print("Who told you about this!?")
-    webbrowser.open('https://www.youtube.com/watch?v=KlQESTshOPw')
-    time.sleep(10)
-    sys.exit()
     
 #---------------------------------------------------------------------------------
 #           MENU HELPERS
@@ -325,9 +318,6 @@ while(query != 'Exit'):
     elif(query in logList):
         os.system('cls')
         log()
-    elif(query in easterList):
-        os.system('cls')
-        eggs()
     elif(query in queueList):
         os.system('cls')
         queue()
