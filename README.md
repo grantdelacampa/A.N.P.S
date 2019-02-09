@@ -29,7 +29,7 @@ Notes:
 Known Bugs and Issues:
   - Some documents fail to print which are caught by a try/except block logged and displayed to the user after execution.
   - In IDLE os.system('cls') will flash a new window but will not clear the IDLE shell.
-      -See: https://stackoverflow.com/questions/1432480/any-way-to-clear-pythons-idle-window
+      - See: https://stackoverflow.com/questions/1432480/any-way-to-clear-pythons-idle-window
   - Most likely there are spelling mistakes feel free to point them out. 
   - Linux and OS are not supported. 
   
