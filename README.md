@@ -9,6 +9,8 @@ Updates:
   - DNM.anp now contains the given links 
   - Minor text fixes
   - Modifed some internal structures to use flags. 
+  - Can search and delete duplcate files from downloads.
+  - Splash screen upon load. 
   
 Features:
   - Records printed documents and can remove them from your download folder. 
